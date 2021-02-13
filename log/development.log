@@ -1,0 +1,1004 @@
+Started GET "/" for 200.110.200.1 at 2021-02-13 02:41:01 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+Started GET "/index" for 200.110.200.1 at 2021-02-13 02:41:08 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:41:16 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/index"):
+  
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:42:02 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/index"):
+  
+Started GET "/inicio" for 200.110.200.1 at 2021-02-13 02:42:08 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+Started GET "/rails/info/routes" for 200.110.200.1 at 2021-02-13 02:42:38 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/layouts/application.html.erb
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /usr/local/rvm/gems/ruby-3.0.0/gems/actionpack-6.1.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [28 times] (Duration: 17.8ms | Allocations: 4674)
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/actionpack-6.1.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.1ms | Allocations: 725)
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 31.2ms | Allocations: 8492)
+  Rendered layout /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/layouts/application.html.erb (Duration: 35.0ms | Allocations: 8719)
+Completed 200 OK in 47ms (Views: 38.1ms | Allocations: 11363)
+
+
+Started GET "//inicio" for 200.110.200.1 at 2021-02-13 02:42:55 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+Started GET "//inicio" for 200.110.200.1 at 2021-02-13 02:45:39 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 23.0ms | Allocations: 292)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/emerson/projects/esoft/sysesoft_1.0.1/public/packs
+[Webpacker] Hash: ce14c115e350524bb5a9
+Version: webpack 4.46.0
+Time: 3416ms
+Built at: 13/02/2021 02:45:47
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b43fa54005da8e229d8c.js    125 KiB  application  [emitted] [immutable]  application
+js/application-b43fa54005da8e229d8c.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-b43fa54005da8e229d8c.js js/application-b43fa54005da8e229d8c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 8522.6ms | Allocations: 15055)
+Completed 200 OK in 8543ms (Views: 8527.9ms | ActiveRecord: 0.0ms | Allocations: 18107)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:46:14 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3458)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 3936)
+
+
+Started GET "/welcome" for 200.110.200.1 at 2021-02-13 02:46:20 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:46:23 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3457)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 3898)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:49:01 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 6368)
+Completed 200 OK in 42ms (Views: 26.9ms | ActiveRecord: 0.0ms | Allocations: 9520)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:49:48 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3773)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 4982)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:49:50 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3457)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3900)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:50:06 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 9702)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms | Allocations: 10888)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:50:22 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3784)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 4996)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:50:41 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3768)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 4968)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:52:28 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3457)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 3899)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:52:30 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 3458)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms | Allocations: 3903)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:52:50 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 6368)
+Completed 200 OK in 41ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 9520)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:52:54 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3458)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 3907)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:53:13 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3459)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 3905)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:53:37 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3457)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 3898)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:53:58 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 240)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 1446)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:53:59 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 3760)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 4967)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:54:01 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3466)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 3910)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:54:31 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 7452)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms | Allocations: 8640)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_link_tag' for #<ActionView::Base:0x00000000007c88>
+Did you mean?  javascript_tag
+               javascript_pack_tag):
+    14: 
+    15: 
+    16: 
+    17:   <%= javascript_link_tag 'application', 'data-turbolinks-track': 'reload' %>
+    18:   </body>
+    19: </html>
+  
+app/views/layouts/application.html.erb:17
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:54:38 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3779)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 4988)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:57:19 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 23.6ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 6367)
+Completed 200 OK in 64ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 9519)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:57:25 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3457)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 3901)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:57:27 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3459)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 3905)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 02:57:30 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 3784)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 4991)
+
+
+Started GET "/welcome/index" for 200.110.200.1 at 2021-02-13 04:28:46 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.8ms | Allocations: 17946)
+Completed 200 OK in 89ms (Views: 74.2ms | ActiveRecord: 0.0ms | Allocations: 21104)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 04:28:52 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3599)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 4048)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 04:28:58 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3597)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 4038)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 04:58:44 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+Started GET "/" for 200.110.200.1 at 2021-02-13 04:58:46 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+Started GET "/" for 200.110.200.1 at 2021-02-13 04:59:02 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+Started GET "/inicio" for 200.110.200.1 at 2021-02-13 04:59:11 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+Started GET "/inicio" for 200.110.200.1 at 2021-02-13 05:00:03 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/inicio"):
+  
+Started GET "/inicio" for 200.110.200.1 at 2021-02-13 05:00:07 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/inicio"):
+  
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:00:09 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 13.2ms | Allocations: 223)
+Completed 200 OK in 21ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 2126)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:02:30 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.8ms | Allocations: 219)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 1005)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:02:31 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 46)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 463)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:02:46 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 34.3ms | Allocations: 218)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms | Allocations: 997)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:20:30 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 45)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 454)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:22:35 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-3.0.0/gems/railties-6.1.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 45)
+Completed 200 OK in 4ms (Views: 2.3ms | Allocations: 453)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:35:42 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.3ms | Allocations: 16957)
+Completed 200 OK in 80ms (Views: 76.7ms | Allocations: 18240)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:38:35 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 3917)
+Completed 200 OK in 28ms (Views: 25.7ms | Allocations: 5120)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:38:53 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3913)
+Completed 200 OK in 19ms (Views: 16.5ms | Allocations: 5123)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:38:55 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3599)
+Completed 200 OK in 13ms (Views: 11.4ms | Allocations: 4040)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:39:10 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3888)
+Completed 200 OK in 18ms (Views: 16.0ms | Allocations: 5125)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:39:13 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3915)
+Completed 200 OK in 20ms (Views: 17.2ms | Allocations: 5118)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:39:41 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 119)
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 5753)
+Completed 500 Internal Server Error in 40ms (Allocations: 6943)
+
+
+  
+ActionView::Template::Error (undefined method `javascript_link_tag' for #<ActionView::Base:0x0000000000a0f0>
+Did you mean?  javascript_tag
+               javascript_pack_tag):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:   <%= javascript_link_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:39:53 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2527)
+Completed 200 OK in 14ms (Views: 11.9ms | Allocations: 3736)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:39:55 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2221)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 2660)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:40:10 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 3955)
+Completed 200 OK in 20ms (Views: 17.3ms | Allocations: 5157)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:51:46 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/emerson/projects/esoft/sysesoft_1.0.1/public/packs
+[Webpacker] Hash: ce14c115e350524bb5a9
+Version: webpack 4.46.0
+Time: 1276ms
+Built at: 13/02/2021 05:51:51
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b43fa54005da8e229d8c.js    125 KiB  application  [emitted] [immutable]  application
+js/application-b43fa54005da8e229d8c.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-b43fa54005da8e229d8c.js js/application-b43fa54005da8e229d8c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6001.4ms | Allocations: 4828)
+Completed 200 OK in 6007ms (Views: 6003.1ms | Allocations: 5269)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:52:15 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/emerson/projects/esoft/sysesoft_1.0.1/public/packs
+[Webpacker] Hash: ce14c115e350524bb5a9
+Version: webpack 4.46.0
+Time: 1451ms
+Built at: 13/02/2021 05:52:21
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b43fa54005da8e229d8c.js    125 KiB  application  [emitted] [immutable]  application
+js/application-b43fa54005da8e229d8c.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-b43fa54005da8e229d8c.js js/application-b43fa54005da8e229d8c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5432.2ms | Allocations: 4747)
+Completed 200 OK in 5435ms (Views: 5433.7ms | Allocations: 5186)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:53:29 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/emerson/projects/esoft/sysesoft_1.0.1/public/packs
+[Webpacker] Hash: cd97baf7138308129130
+Version: webpack 4.46.0
+Time: 2633ms
+Built at: 13/02/2021 05:53:36
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-60830fd6c206e530303e.js    137 KiB  application  [emitted] [immutable]  application
+js/application-60830fd6c206e530303e.js.map    152 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-60830fd6c206e530303e.js js/application-60830fd6c206e530303e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 528 bytes {application} [built]
+[./app/javascript/styles/application.css] 607 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/styles/application.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./app/javascript/styles/application.css 408 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6904.5ms | Allocations: 4749)
+Completed 200 OK in 6908ms (Views: 6905.8ms | Allocations: 5188)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:53:47 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: b7a570b3ccf9b5f59ee6
+Version: webpack 4.46.0
+Time: 1032ms
+Built at: 13/02/2021 05:53:52
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-08a424c20e609e844230.js    125 KiB  application  [emitted] [immutable]  application
+js/application-08a424c20e609e844230.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-08a424c20e609e844230.js js/application-08a424c20e609e844230.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '../styles/application.scss' in '/home/emerson/projects/esoft/sysesoft_1.0.1/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 9:0-36
+
+  Rendered layout layouts/application.html.erb (Duration: 5155.8ms | Allocations: 9848)
+Completed 200 OK in 5158ms (Views: 5157.1ms | Allocations: 10287)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:54:33 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3594)
+Completed 200 OK in 15ms (Views: 13.1ms | Allocations: 4032)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:54:38 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3594)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 4032)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:55:16 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/emerson/projects/esoft/sysesoft_1.0.1/public/packs
+[Webpacker] Hash: f111b88e6fdc61e4bbee
+Version: webpack 4.46.0
+Time: 2172ms
+Built at: 13/02/2021 05:55:24
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-50f5fe6a6ff298114b7c.js    138 KiB  application  [emitted] [immutable]  application
+js/application-50f5fe6a6ff298114b7c.js.map    152 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-50f5fe6a6ff298114b7c.js js/application-50f5fe6a6ff298114b7c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/styles/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/styles/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/styles/application.scss 481 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7227.1ms | Allocations: 4828)
+Completed 200 OK in 7230ms (Views: 7228.4ms | Allocations: 5267)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:55:47 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/emerson/projects/esoft/sysesoft_1.0.1/public/packs
+[Webpacker] Hash: fd6a1d9cb97409788649
+Version: webpack 4.46.0
+Time: 2720ms
+Built at: 13/02/2021 05:55:54
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-999dcff90d35c020ea9a.js    138 KiB  application  [emitted] [immutable]  application
+js/application-999dcff90d35c020ea9a.js.map    152 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-999dcff90d35c020ea9a.js js/application-999dcff90d35c020ea9a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/styles/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/styles/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/styles/application.scss 481 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6861.8ms | Allocations: 4752)
+Completed 200 OK in 6865ms (Views: 6863.3ms | Allocations: 5192)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:58:17 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 2544)
+Completed 200 OK in 20ms (Views: 15.8ms | Allocations: 3753)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:58:37 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 3926)
+Completed 200 OK in 20ms (Views: 17.6ms | Allocations: 5129)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:58:40 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 3615)
+Completed 200 OK in 21ms (Views: 19.9ms | Allocations: 4055)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:59:24 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 6899)
+Completed 500 Internal Server Error in 19ms (Allocations: 8073)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:   <%= javascript_include_tag  'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 200.110.200.1 at 2021-02-13 05:59:36 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 8270)
+Completed 500 Internal Server Error in 21ms (Allocations: 9443)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:   <%= javascript_include_tag  'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:00:20 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 8260)
+Completed 500 Internal Server Error in 23ms (Allocations: 9433)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10: <%= javascript_include_tag 'application'%>
+    11: 
+    12: 
+    13:   </head>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:00:53 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 3976)
+Completed 200 OK in 21ms (Views: 18.4ms | Allocations: 5185)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:02:16 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 8255)
+Completed 500 Internal Server Error in 24ms (Allocations: 9422)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     9:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10: 
+    11:   
+    12: <%= javascript_include_tag 'application'%>
+    13: 
+    14: 
+    15:   </head>
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:04:04 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3976)
+Completed 200 OK in 22ms (Views: 18.4ms | Allocations: 5185)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:05:34 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 7093)
+Completed 200 OK in 45ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 10251)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:16:36 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 3943)
+Completed 200 OK in 21ms (Views: 18.1ms | Allocations: 5180)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:16:38 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3613)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 4057)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:19:46 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3612)
+Completed 200 OK in 16ms (Views: 14.2ms | Allocations: 4054)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:19:49 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3626)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 4070)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:19:53 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3979)
+Completed 200 OK in 19ms (Views: 17.0ms | Allocations: 5188)
+
+
+Started GET "/" for 200.110.200.1 at 2021-02-13 06:21:39 -0300
+Cannot render console from 200.110.200.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 120)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 3974)
+Completed 200 OK in 21ms (Views: 18.6ms | Allocations: 5180)
+
+
